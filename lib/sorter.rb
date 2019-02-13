@@ -1,11 +1,12 @@
 def sorter(array)
-  new_array = []
+  number_array = []
+  string_array = []
   array.each {|x|
-    if x > 10
-    new_array << 10
+    if x.is_a? String
+      string_array << x
     else
-    new_array << x
+    number_array << x
     end }
-    new_array
+    return string_array, number_array
 
 end
