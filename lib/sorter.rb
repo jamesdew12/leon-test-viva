@@ -1,4 +1,4 @@
-def sorter(num)
-  num
+def sorter(array)
+  array
 
 end
